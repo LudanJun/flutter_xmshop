@@ -1,0 +1,61 @@
+name: xmshop
+version: 0.1.0
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies: 
+  get: 4.6.6
+  flutter_screenutil: ^5.9.0  #全屏幕适配插件
+  flutter_swiper_view: ^1.1.8 #轮播图插件
+  dio: ^5.4.0 #数据请求插件
+  flutter_staggered_grid_view: ^0.7.0 #瀑布流插件
+  shared_preferences: ^2.2.2 #保存本地数据
+  flutter_html: ^3.0.0-alpha.6 #解析html数据
+  pin_code_fields: ^8.0.1 #六格验证码
+  city_pickers: ^1.3.0 #城市三级联动选择器
+  crypto: ^3.0.3 #MD5加密插件
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  
+  fonts:
+    - family: hooIcon #指定一个字体名 根据自己需求定义
+      fonts:
+        - asset: assets/fonts/iconfont.ttf
+    - family: userIcon   #指定一个字体名 根据自己的需求定义
+      fonts:
+        - asset: assets/fonts/userIconfont.ttf      
+  assets:
+    - assets/images/xiaomiBanner.png
+    - assets/images/2.0x/xiaomiBanner.png
+    - assets/images/3.0x/xiaomiBanner.png
+    - assets/images/xiaomiBanner2.png
+    - assets/images/2.0x/xiaomiBanner2.png
+    - assets/images/3.0x/xiaomiBanner2.png
+    - assets/images/hot_search.png
+    - assets/images/2.0x/hot_search.png
+    - assets/images/3.0x/hot_search.png
+    - assets/images/service.png
+    - assets/images/2.0x/service.png
+    - assets/images/3.0x/service.png
+    - assets/images/user.png
+    - assets/images/2.0x/user.png
+    - assets/images/3.0x/user.png
+    - assets/images/user_ad1.png
+    - assets/images/2.0x/user_ad1.png
+    - assets/images/3.0x/user_ad1.png    
+    - assets/images/user_ad2.png
+    - assets/images/2.0x/user_ad2.png
+    - assets/images/3.0x/user_ad2.png
+    - assets/images/logo.png
+    - assets/images/2.0x/logo.png
+    - assets/images/3.0x/logo.png   
